@@ -12,6 +12,23 @@
                             background-attachment:fixed;
                             
                     }
+                   
+                    Table#new{
+                            width:100%;
+                            border-collapse: collapse;
+                    }
+                    th.second, td.second {
+                            border-bottom:1px solid #00ff00;
+                    }
+                    td.second{text-align: center;
+                              color:#DE3163;
+                              padding: 15px 0px;
+                            }
+                    th.second{ background-color: #0e1521;
+                               color: white;}
+                    td.second:hover {background-color:#6495ED ;}
+                    tr.second:hover {background-color:#276be5 ;}
+                    
             </style>
         </head>
             <body>  
@@ -36,6 +53,31 @@
                             <th>August</th>
                             <th>July</th>
                             <th>June</th>
+                        </tr>   
+                    </Table>
+                    <br>
+
+                    <Table id="new">
+                        <caption>Table Example 2b</caption>
+                        <tr>
+                            <th class="second" colspan="3">2022</th>
+                        </tr>
+                        <tr class="second">
+                            <td class="second">January</td>
+                            <td class="second">February</td>
+                            <td class="second">March</td>
+                        </tr>
+                        <tr class="second">
+                            <td class="second" rowspan="2" colspan="2">September,October,<br>November,December </td>
+                            <td class="second">April</td>
+                        </tr>
+                        <tr class="second">
+                            <td class="second">May</td>
+                        </tr>
+                        <tr class="second">
+                            <td class="second">August</td>
+                            <td class="second">July</td>
+                            <td class="second">June</td>
                         </tr>   
                     </Table>
                          <p>Do you want to win a prize? <br> <a href = "Sixth.html">click here.</a> </p>
